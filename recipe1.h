@@ -17,6 +17,11 @@ public:
 
 private:
     Ui::recipe1 *ui;
+    //when called these are called ina function they will be executed
+private slots:
+    void Foods();
+    void OperatorButtons();
+    void EqualButton();
 };
 
 #endif // RECIPE1_H
